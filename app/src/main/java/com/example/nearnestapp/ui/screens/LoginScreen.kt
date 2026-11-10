@@ -179,7 +179,7 @@ fun LoginScreen(
 
                 // Continue with Google Button
                 OutlinedButton(
-                    onClick = { /* Handle Google Login */ },
+                    onClick = onLoginClick,
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(52.dp),
@@ -199,7 +199,7 @@ fun LoginScreen(
 
                 // Continue with Phone Button
                 OutlinedButton(
-                    onClick = { /* Handle Phone Login */ },
+                    onClick = onLoginClick,
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(52.dp),
